@@ -18,7 +18,6 @@ html {
   --accent-color: #2196f3;
   --additional-color: #ffffff;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--primary-bg-color);
@@ -58,18 +57,19 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 img {
   display: block;
-  max-width: 100%; /* !!!!!!!!!!!!!!!!! */
+  max-width: 100%;
 }
 
 /* LOGO */
 .logo {
   display: block;
+
   font-family: 'Raleway', sans-serif;
   color: #000000;
   font-size: 26px;
@@ -88,6 +88,7 @@ img {
 /* HEADER */
 .menu {
   border-bottom: 1px solid #ececec;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1em;
@@ -204,7 +205,7 @@ img {
   letter-spacing: 0.03em;
 }
 /* About sect */
-.about{
+.about {
   padding-top: 0;
 }
 .about-list {
@@ -223,14 +224,16 @@ img {
 }
 .team-item {
   padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
   background-color: var(--additional-color);
 }
 
 .team-name {
   margin: 30px 0 10px;
+
   color: var(--secondary-color);
   font-weight: 500;
   font-size: 16px;
@@ -240,6 +243,7 @@ img {
 }
 .team-position {
   margin: 0;
+
   font-size: 16px;
   line-height: 1.2em;
   letter-spacing: 0.03em;
@@ -285,6 +289,7 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+
   background-color: var(--additional-color);
 }
 .portfolio-item:nth-child(3n) {
@@ -293,7 +298,6 @@ img {
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
 .container-title {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
@@ -317,9 +321,10 @@ img {
 
 /* FOOTER */
 .page-footer {
-  background-color: var(--accent-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: var(--accent-bg-color);
 }
 .footer-list {
   font-size: 14px;
